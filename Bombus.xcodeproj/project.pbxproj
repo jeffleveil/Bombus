@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDD28FE025F2E7BB00917B50 /* BombusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD28FDF25F2E7BB00917B50 /* BombusApp.swift */; };
+		EDD28FE225F2E7BB00917B50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD28FE125F2E7BB00917B50 /* ContentView.swift */; };
+		EDD28FE425F2E7BC00917B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD28FE325F2E7BC00917B50 /* Assets.xcassets */; };
+		EDD28FE725F2E7BC00917B50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD28FE625F2E7BC00917B50 /* Preview Assets.xcassets */; };
+		EDD28FEC25F2E7BC00917B50 /* Bombus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDD28FEA25F2E7BC00917B50 /* Bombus.xcdatamodeld */; };
+		EDD28FF725F2E7BC00917B50 /* BombusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD28FF625F2E7BC00917B50 /* BombusTests.swift */; };
+		EDD2900225F2E7BD00917B50 /* BombusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD2900125F2E7BD00917B50 /* BombusUITests.swift */; };
+		EDD2902725F2EBD500917B50 /* Session+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD2902525F2EBD500917B50 /* Session+CoreDataClass.swift */; };
+		EDD2902825F2EBD500917B50 /* Session+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD2902625F2EBD500917B50 /* Session+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDD28FF325F2E7BC00917B50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD28FD425F2E7BB00917B50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD28FDB25F2E7BB00917B50;
+			remoteInfo = Bombus;
+		};
+		EDD28FFE25F2E7BD00917B50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD28FD425F2E7BB00917B50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD28FDB25F2E7BB00917B50;
+			remoteInfo = Bombus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDD28FDC25F2E7BB00917B50 /* Bombus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bombus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD28FDF25F2E7BB00917B50 /* BombusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombusApp.swift; sourceTree = "<group>"; };
+		EDD28FE125F2E7BB00917B50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDD28FE325F2E7BC00917B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDD28FE625F2E7BC00917B50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDD28FEB25F2E7BC00917B50 /* Bombus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bombus.xcdatamodel; sourceTree = "<group>"; };
+		EDD28FED25F2E7BC00917B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD28FF225F2E7BC00917B50 /* BombusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BombusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD28FF625F2E7BC00917B50 /* BombusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombusTests.swift; sourceTree = "<group>"; };
+		EDD28FF825F2E7BC00917B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD28FFD25F2E7BD00917B50 /* BombusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BombusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD2900125F2E7BD00917B50 /* BombusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombusUITests.swift; sourceTree = "<group>"; };
+		EDD2900325F2E7BD00917B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD2902525F2EBD500917B50 /* Session+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Session+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EDD2902625F2EBD500917B50 /* Session+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Session+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDD28FD925F2E7BB00917B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD28FEF25F2E7BC00917B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD28FFA25F2E7BD00917B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDD28FD325F2E7BB00917B50 = {
+			isa = PBXGroup;
+			children = (
+				EDD28FDE25F2E7BB00917B50 /* Bombus */,
+				EDD28FF525F2E7BC00917B50 /* BombusTests */,
+				EDD2900025F2E7BD00917B50 /* BombusUITests */,
+				EDD28FDD25F2E7BB00917B50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDD28FDD25F2E7BB00917B50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDD28FDC25F2E7BB00917B50 /* Bombus.app */,
+				EDD28FF225F2E7BC00917B50 /* BombusTests.xctest */,
+				EDD28FFD25F2E7BD00917B50 /* BombusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD28FDE25F2E7BB00917B50 /* Bombus */ = {
+			isa = PBXGroup;
+			children = (
+				EDD2901525F2E8A800917B50 /* Model */,
+				EDD28FDF25F2E7BB00917B50 /* BombusApp.swift */,
+				EDD28FE125F2E7BB00917B50 /* ContentView.swift */,
+				EDD28FE325F2E7BC00917B50 /* Assets.xcassets */,
+				EDD28FED25F2E7BC00917B50 /* Info.plist */,
+				EDD28FEA25F2E7BC00917B50 /* Bombus.xcdatamodeld */,
+				EDD28FE525F2E7BC00917B50 /* Preview Content */,
+			);
+			path = Bombus;
+			sourceTree = "<group>";
+		};
+		EDD28FE525F2E7BC00917B50 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDD28FE625F2E7BC00917B50 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDD28FF525F2E7BC00917B50 /* BombusTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD28FF625F2E7BC00917B50 /* BombusTests.swift */,
+				EDD28FF825F2E7BC00917B50 /* Info.plist */,
+			);
+			path = BombusTests;
+			sourceTree = "<group>";
+		};
+		EDD2900025F2E7BD00917B50 /* BombusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD2900125F2E7BD00917B50 /* BombusUITests.swift */,
+				EDD2900325F2E7BD00917B50 /* Info.plist */,
+			);
+			path = BombusUITests;
+			sourceTree = "<group>";
+		};
+		EDD2901525F2E8A800917B50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDD2902525F2EBD500917B50 /* Session+CoreDataClass.swift */,
+				EDD2902625F2EBD500917B50 /* Session+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDD28FDB25F2E7BB00917B50 /* Bombus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD2900625F2E7BD00917B50 /* Build configuration list for PBXNativeTarget "Bombus" */;
+			buildPhases = (
+				EDD28FD825F2E7BB00917B50 /* Sources */,
+				EDD28FD925F2E7BB00917B50 /* Frameworks */,
+				EDD28FDA25F2E7BB00917B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bombus;
+			productName = Bombus;
+			productReference = EDD28FDC25F2E7BB00917B50 /* Bombus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDD28FF125F2E7BC00917B50 /* BombusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD2900925F2E7BD00917B50 /* Build configuration list for PBXNativeTarget "BombusTests" */;
+			buildPhases = (
+				EDD28FEE25F2E7BC00917B50 /* Sources */,
+				EDD28FEF25F2E7BC00917B50 /* Frameworks */,
+				EDD28FF025F2E7BC00917B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD28FF425F2E7BC00917B50 /* PBXTargetDependency */,
+			);
+			name = BombusTests;
+			productName = BombusTests;
+			productReference = EDD28FF225F2E7BC00917B50 /* BombusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDD28FFC25F2E7BD00917B50 /* BombusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD2900C25F2E7BD00917B50 /* Build configuration list for PBXNativeTarget "BombusUITests" */;
+			buildPhases = (
+				EDD28FF925F2E7BD00917B50 /* Sources */,
+				EDD28FFA25F2E7BD00917B50 /* Frameworks */,
+				EDD28FFB25F2E7BD00917B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD28FFF25F2E7BD00917B50 /* PBXTargetDependency */,
+			);
+			name = BombusUITests;
+			productName = BombusUITests;
+			productReference = EDD28FFD25F2E7BD00917B50 /* BombusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDD28FD425F2E7BB00917B50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EDD28FDB25F2E7BB00917B50 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EDD28FF125F2E7BC00917B50 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EDD28FDB25F2E7BB00917B50;
+					};
+					EDD28FFC25F2E7BD00917B50 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EDD28FDB25F2E7BB00917B50;
+					};
+				};
+			};
+			buildConfigurationList = EDD28FD725F2E7BB00917B50 /* Build configuration list for PBXProject "Bombus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDD28FD325F2E7BB00917B50;
+			productRefGroup = EDD28FDD25F2E7BB00917B50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDD28FDB25F2E7BB00917B50 /* Bombus */,
+				EDD28FF125F2E7BC00917B50 /* BombusTests */,
+				EDD28FFC25F2E7BD00917B50 /* BombusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDD28FDA25F2E7BB00917B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD28FE725F2E7BC00917B50 /* Preview Assets.xcassets in Resources */,
+				EDD28FE425F2E7BC00917B50 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD28FF025F2E7BC00917B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD28FFB25F2E7BD00917B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDD28FD825F2E7BB00917B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD2902825F2EBD500917B50 /* Session+CoreDataProperties.swift in Sources */,
+				EDD28FE225F2E7BB00917B50 /* ContentView.swift in Sources */,
+				EDD28FE025F2E7BB00917B50 /* BombusApp.swift in Sources */,
+				EDD2902725F2EBD500917B50 /* Session+CoreDataClass.swift in Sources */,
+				EDD28FEC25F2E7BC00917B50 /* Bombus.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD28FEE25F2E7BC00917B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD28FF725F2E7BC00917B50 /* BombusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD28FF925F2E7BD00917B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD2900225F2E7BD00917B50 /* BombusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDD28FF425F2E7BC00917B50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD28FDB25F2E7BB00917B50 /* Bombus */;
+			targetProxy = EDD28FF325F2E7BC00917B50 /* PBXContainerItemProxy */;
+		};
+		EDD28FFF25F2E7BD00917B50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD28FDB25F2E7BB00917B50 /* Bombus */;
+			targetProxy = EDD28FFE25F2E7BD00917B50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EDD2900425F2E7BD00917B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDD2900525F2E7BD00917B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDD2900725F2E7BD00917B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bombus/Preview Content\"";
+				DEVELOPMENT_TEAM = 4CR77PCW63;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Bombus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bombusapp.Bombus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDD2900825F2E7BD00917B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bombus/Preview Content\"";
+				DEVELOPMENT_TEAM = 4CR77PCW63;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Bombus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bombusapp.Bombus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDD2900A25F2E7BD00917B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4CR77PCW63;
+				INFOPLIST_FILE = BombusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bombusapp.BombusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bombus.app/Bombus";
+			};
+			name = Debug;
+		};
+		EDD2900B25F2E7BD00917B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4CR77PCW63;
+				INFOPLIST_FILE = BombusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bombusapp.BombusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bombus.app/Bombus";
+			};
+			name = Release;
+		};
+		EDD2900D25F2E7BD00917B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4CR77PCW63;
+				INFOPLIST_FILE = BombusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bombusapp.BombusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bombus;
+			};
+			name = Debug;
+		};
+		EDD2900E25F2E7BD00917B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4CR77PCW63;
+				INFOPLIST_FILE = BombusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bombusapp.BombusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bombus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDD28FD725F2E7BB00917B50 /* Build configuration list for PBXProject "Bombus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD2900425F2E7BD00917B50 /* Debug */,
+				EDD2900525F2E7BD00917B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD2900625F2E7BD00917B50 /* Build configuration list for PBXNativeTarget "Bombus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD2900725F2E7BD00917B50 /* Debug */,
+				EDD2900825F2E7BD00917B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD2900925F2E7BD00917B50 /* Build configuration list for PBXNativeTarget "BombusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD2900A25F2E7BD00917B50 /* Debug */,
+				EDD2900B25F2E7BD00917B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD2900C25F2E7BD00917B50 /* Build configuration list for PBXNativeTarget "BombusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD2900D25F2E7BD00917B50 /* Debug */,
+				EDD2900E25F2E7BD00917B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDD28FEA25F2E7BC00917B50 /* Bombus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDD28FEB25F2E7BC00917B50 /* Bombus.xcdatamodel */,
+			);
+			currentVersion = EDD28FEB25F2E7BC00917B50 /* Bombus.xcdatamodel */;
+			path = Bombus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EDD28FD425F2E7BB00917B50 /* Project object */;
+}
