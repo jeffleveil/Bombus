@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = SwiftLint;
+			productName = SwiftLint;
 		};
 /* End PBXAggregateTarget section */
 
@@ -48,7 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A73EF5BA7EE4721E9C30F7F405F82B5 /* Pods_BombusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BombusTests.framework; path = "Pods-BombusTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A73EF5BA7EE4721E9C30F7F405F82B5 /* Pods_BombusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BombusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1091508EB7EADA6FD1F1ABF40471BABA /* Pods-Bombus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bombus.debug.xcconfig"; sourceTree = "<group>"; };
 		20A44BB1A8C50BD14798B6C2924C30A5 /* Pods-Bombus-BombusUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bombus-BombusUITests-dummy.m"; sourceTree = "<group>"; };
 		3A9F0BDF23C5976641B073B4D11654BE /* Pods-BombusTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BombusTests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -58,7 +59,7 @@
 		49227027B4CD25D5A7F62380A09CCBD5 /* Pods-Bombus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bombus.release.xcconfig"; sourceTree = "<group>"; };
 		4EAB8FDF314E1F9876049D756B028020 /* Pods-Bombus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bombus-dummy.m"; sourceTree = "<group>"; };
 		56F4B86AD6E7203359154CC1919E1D79 /* Pods-Bombus-BombusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bombus-BombusUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5C214481DDF3C77D9B4231E019933B6D /* Pods_Bombus_BombusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bombus_BombusUITests.framework; path = "Pods-Bombus-BombusUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C214481DDF3C77D9B4231E019933B6D /* Pods_Bombus_BombusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bombus_BombusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60779291696D5C4DFE3DC9920B4034BB /* Pods-Bombus-BombusUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bombus-BombusUITests-Info.plist"; sourceTree = "<group>"; };
 		60908D19DFC0143870A692CEAF8C7583 /* Pods-Bombus-BombusUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bombus-BombusUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6B8F64B5B4CA8EBAE481B1C6C8F30D2E /* Pods-BombusTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BombusTests-Info.plist"; sourceTree = "<group>"; };
@@ -67,11 +68,11 @@
 		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
 		81A8BC082CA479AE11263D4F11AB286D /* Pods-BombusTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BombusTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93B231F126210F8BB9BB979139E273BC /* Pods-BombusTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BombusTests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ACFD540C02EBDE30CE84E3912A41BF8A /* Pods-BombusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BombusTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8431489DB28F4255ADFB331D92724DE /* Pods-Bombus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bombus-umbrella.h"; sourceTree = "<group>"; };
 		D2D2A04E6776C7AFD3429CBC8B40E320 /* Pods-Bombus-BombusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bombus-BombusUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D4C1BCB7CF575DAF4E49B9DC8A67A8D6 /* Pods_Bombus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bombus.framework; path = "Pods-Bombus.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C1BCB7CF575DAF4E49B9DC8A67A8D6 /* Pods_Bombus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bombus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01540E776F06F77488BE9D5C4928FEB /* Pods-BombusTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BombusTests.modulemap"; sourceTree = "<group>"; };
 		E42A8129CD553DBB67885F5262B087A5 /* Pods-BombusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BombusTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E6402A56E0BB11DCE0D2060BEEBBA054 /* Pods-Bombus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Bombus.modulemap"; sourceTree = "<group>"; };
@@ -217,7 +218,6 @@
 			children = (
 				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
 			);
-			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -324,7 +324,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -736,7 +736,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -790,7 +790,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

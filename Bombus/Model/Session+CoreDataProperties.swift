@@ -13,5 +13,5 @@ extension Session {
 
 }
 
-extension Session : Identifiable {
+extension Session: Identifiable {
 }
