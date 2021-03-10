@@ -13,6 +13,8 @@
 		EDBD161A25F952F000F1C262 /* StorageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD161925F952F000F1C262 /* StorageProvider.swift */; };
 		EDBD165825F95C9E00F1C262 /* Bombus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDD28FEA25F2E7BC00917B50 /* Bombus.xcdatamodeld */; };
 		EDBD165F25F95CAA00F1C262 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD162F25F9554800F1C262 /* SessionView.swift */; };
+		EDBD166425F961D800F1C262 /* SessionView+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD166325F961D800F1C262 /* SessionView+Model.swift */; };
+		EDBD166925F9622600F1C262 /* SessionTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD166825F9622600F1C262 /* SessionTimer.swift */; };
 		EDD28FE025F2E7BB00917B50 /* BombusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD28FDF25F2E7BB00917B50 /* BombusApp.swift */; };
 		EDD28FE425F2E7BC00917B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD28FE325F2E7BC00917B50 /* Assets.xcassets */; };
 		EDD28FE725F2E7BC00917B50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD28FE625F2E7BC00917B50 /* Preview Assets.xcassets */; };
@@ -49,6 +51,8 @@
 		DA60ABB67D7C4BC02A04D0FF /* Pods-BombusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BombusTests.debug.xcconfig"; path = "Target Support Files/Pods-BombusTests/Pods-BombusTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDBD161925F952F000F1C262 /* StorageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageProvider.swift; sourceTree = "<group>"; };
 		EDBD162F25F9554800F1C262 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		EDBD166325F961D800F1C262 /* SessionView+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SessionView+Model.swift"; sourceTree = "<group>"; };
+		EDBD166825F9622600F1C262 /* SessionTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionTimer.swift; sourceTree = "<group>"; };
 		EDD28FDC25F2E7BB00917B50 /* Bombus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bombus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD28FDF25F2E7BB00917B50 /* BombusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombusApp.swift; sourceTree = "<group>"; };
 		EDD28FE325F2E7BC00917B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -123,6 +127,7 @@
 		EDBD164725F95BDB00F1C262 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				EDBD166325F961D800F1C262 /* SessionView+Model.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				EDBD161825F952C700F1C262 /* Core Data */,
+				EDBD166825F9622600F1C262 /* SessionTimer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -432,6 +438,8 @@
 				EDBD161A25F952F000F1C262 /* StorageProvider.swift in Sources */,
 				EDBD165825F95C9E00F1C262 /* Bombus.xcdatamodeld in Sources */,
 				EDBD165F25F95CAA00F1C262 /* SessionView.swift in Sources */,
+				EDBD166925F9622600F1C262 /* SessionTimer.swift in Sources */,
+				EDBD166425F961D800F1C262 /* SessionView+Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

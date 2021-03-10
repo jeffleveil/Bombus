@@ -4,11 +4,12 @@ import SwiftUI
 struct BombusApp: App {
 
     let storageProvider = StorageProvider()
+    let sessionViewModel = SessionView.ViewModel()
 
     var body: some Scene {
 
         WindowGroup {
-            SessionView(storageProvider: storageProvider)
+            SessionView(viewModel: sessionViewModel, storageProvider: storageProvider)
         }
 
     }
