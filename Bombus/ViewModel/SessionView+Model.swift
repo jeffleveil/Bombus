@@ -23,7 +23,7 @@ extension SessionView {
 
         func startTimer() {
             sessionTimer.start = Date.init(timeInterval: 1500, since: Date())
-            beginDurationCounter(at: sessionTimer.start!) // Delay here becuase its using the default Runloop. Look into this in future
+            beginDurationCounter(at: sessionTimer.start!)
         }
 
         private func setupFormatter() {
