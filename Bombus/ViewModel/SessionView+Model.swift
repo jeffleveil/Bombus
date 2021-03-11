@@ -41,6 +41,8 @@ extension SessionView {
                 }
                 self.sessionTimer.duration -= 1.0
             }
+            // RunLoop seems to address memory issue. Need to work on edgecase checks
+            RunLoop.main.add(sessionTimer.timer, forMode: .common)
         }
 
     }
