@@ -1,6 +1,0 @@
-framework module Pods_Bombus_BombusUITests {
-  umbrella header "Pods-Bombus-BombusUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
