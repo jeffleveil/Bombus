@@ -16,13 +16,6 @@ Bombus is a Pomodoro app for the ones with a hive mentality. Studying alone lead
 
 <br>
 
-## Getting Started
-
-When you download this project for the first time you'll want to make sure you have a few things in order.
-- This project uses [SwiftLint](https://github.com/realm/SwiftLint). To contribute make sure that you install SwiftLint so that you can follow the code format.
-
-<br>
-
 ## How do I contribute?
 
 Just fork this repo, create your branches and create a pull request when you want to contribute. If anything breaks, we'll fix it along the way!
