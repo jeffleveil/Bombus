@@ -20,11 +20,6 @@ struct BombusTabView: View {
                     Image(systemName: "person.fill")
                     Text("")
                 }.tag(3)
-            Text("Place Holder")
-                .tabItem {
-                    Image(systemName: "slider.horizontal.3")
-                    Text("")
-                }.tag(4)
         }
     }
 }
