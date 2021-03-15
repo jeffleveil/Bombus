@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37CD669125FAE69B008E0328 /* BombusTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CD669025FAE69B008E0328 /* BombusTabView.swift */; };
 		EDBD161A25F952F000F1C262 /* StorageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD161925F952F000F1C262 /* StorageProvider.swift */; };
 		EDBD165825F95C9E00F1C262 /* Bombus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDD28FEA25F2E7BC00917B50 /* Bombus.xcdatamodeld */; };
 		EDBD165F25F95CAA00F1C262 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD162F25F9554800F1C262 /* SessionView.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37CD669025FAE69B008E0328 /* BombusTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombusTabView.swift; sourceTree = "<group>"; };
 		EDBD161925F952F000F1C262 /* StorageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageProvider.swift; sourceTree = "<group>"; };
 		EDBD162F25F9554800F1C262 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
 		EDBD166325F961D800F1C262 /* SessionView+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SessionView+Model.swift"; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				EDBD162F25F9554800F1C262 /* SessionView.swift */,
+				37CD669025FAE69B008E0328 /* BombusTabView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			files = (
 				EDD28FE025F2E7BB00917B50 /* BombusApp.swift in Sources */,
 				EDBD161A25F952F000F1C262 /* StorageProvider.swift in Sources */,
+				37CD669125FAE69B008E0328 /* BombusTabView.swift in Sources */,
 				EDBD165825F95C9E00F1C262 /* Bombus.xcdatamodeld in Sources */,
 				EDBD165F25F95CAA00F1C262 /* SessionView.swift in Sources */,
 				EDBD166925F9622600F1C262 /* SessionTimer.swift in Sources */,
