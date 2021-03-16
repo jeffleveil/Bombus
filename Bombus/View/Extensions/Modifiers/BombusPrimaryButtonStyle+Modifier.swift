@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct BombusPrimaryButtobnStyleModifier: ViewModifier {
+struct BombusPrimaryButtonStyleModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .foregroundColor(.white)
@@ -14,20 +14,19 @@ struct BombusPrimaryButtobnStyleModifier: ViewModifier {
 }
 
 extension View {
-    func customButton() -> ModifiedContent<Self, BombusPrimaryButtobnStyleModifier> {
-        return modifier(BombusPrimaryButtobnStyleModifier())
+    func primaryButtonStyle() -> ModifiedContent<Self, BombusPrimaryButtonStyleModifier> {
+        return modifier(BombusPrimaryButtonStyleModifier())
     }
 }
 
-struct BombusPrimaryButtobnStyleModifierPreview: PreviewProvider {
-    
+struct BombusPrimaryButtonStyleModifierPreview: PreviewProvider {
     static var previews: some View {
 
         Group {
             Button(action: {}, label: {
                 Text("Button")
             })
-            .customButton()
+            .primaryButtonStyle()
         }
     }
 }

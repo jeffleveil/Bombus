@@ -119,8 +119,8 @@
 		EDBD164625F95BD400F1C262 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EDF66E5A26013D9700D6F42D /* SessionView */,
 				EDF66E4D2601379600D6F42D /* Extensions */,
-				EDBD162F25F9554800F1C262 /* SessionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -219,6 +219,14 @@
 				EDF66E4F260137CD00D6F42D /* BombusPrimaryButtonStyle+Modifier.swift */,
 			);
 			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		EDF66E5A26013D9700D6F42D /* SessionView */ = {
+			isa = PBXGroup;
+			children = (
+				EDBD162F25F9554800F1C262 /* SessionView.swift */,
+			);
+			path = SessionView;
 			sourceTree = "<group>";
 		};
 		FA5761AC7FC7FD0EBCE222A8 /* Frameworks */ = {

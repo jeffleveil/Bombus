@@ -16,17 +16,11 @@ struct SessionView: View {
                 Spacer()
 
                 Button(action: {
-                    viewModel.startTimer()
+                    viewModel.startTimer() // This is not adopting the MVVM paradigm
                 }, label: {
                     // Let's place this into a ButtonStyleModifier so we dont clog the view
                     Text("Start Timer")
-                        .font(.system(.headline, design: .rounded))
-                        .foregroundColor(.white)
-                        .frame(maxWidth: .infinity, maxHeight: 50) // Hardcoded for now to see how it looks
-                        .background(Color.yellow)
-                        .cornerRadius(10)
-                        .padding()
-                })
+                }).primaryButtonStyle()
             }
             .navigationTitle("Sessions")
     }
