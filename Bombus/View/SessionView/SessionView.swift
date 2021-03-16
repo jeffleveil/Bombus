@@ -14,6 +14,7 @@ struct SessionView: View {
                     .font(.system(size: 50, weight: .bold, design: .rounded))
                     .fontWeight(.bold)
                     .padding(50)
+                    .foregroundColor(.bombusPrimaryTextColor)
                 
                 Spacer()
                 

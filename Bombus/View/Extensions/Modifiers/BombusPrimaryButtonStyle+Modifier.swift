@@ -3,7 +3,7 @@ import SwiftUI
 struct BombusPrimaryButtonStyleModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
-            .foregroundColor(.bombusbBackgroundColor)
+            .foregroundColor(.bombusPrimaryTextColor)
             .font(.system(.body, design: .rounded))
             .padding()
             .frame(minWidth: 0, maxWidth: .infinity, alignment: .center)

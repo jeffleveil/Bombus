@@ -13,7 +13,10 @@ struct BombusTabView: View {
     
     var body: some View {
         TabView(selection: $selection) {
-            Text("Place Holder")
+            ZStack {
+                Color.bombusbBackgroundColor.ignoresSafeArea(edges: .all)
+                Text("Place Holder")
+            }
                 .tabItem {
                     Image(systemName: "house")
                     Text("")
@@ -23,7 +26,10 @@ struct BombusTabView: View {
                     Image(systemName: "stopwatch")
                     Text("")
                 }.tag(2)
-            Text("Place Holder")
+            ZStack {
+                Color.bombusbBackgroundColor.ignoresSafeArea(edges: .all)
+                Text("Place Holder")
+            }
                 .tabItem {
                     Image(systemName: "person.fill")
                     Text("")
