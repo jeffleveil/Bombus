@@ -18,9 +18,9 @@ struct BombusTabView: View {
                 Color.bombusbBackgroundColor.ignoresSafeArea(edges: .all)
                 Text("Place Holder")
             }.tabItem {
-                    Image(systemName: "house")
-                    Text("")
-                }.tag(1)
+                Image(systemName: "house")
+                Text("")
+            }.tag(1)
             SessionView(storageProvider: storageProvider)
                 .tabItem {
                     Image(systemName: "stopwatch")
@@ -30,10 +30,10 @@ struct BombusTabView: View {
                 Color.bombusbBackgroundColor.ignoresSafeArea(edges: .all)
                 Text("Place Holder")
             }
-                .tabItem {
-                    Image(systemName: "person.fill")
-                    Text("")
-                }.tag(3)
+            .tabItem {
+                Image(systemName: "person.fill")
+                Text("")
+            }.tag(3)
         }
     }
 }
