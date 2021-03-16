@@ -1,7 +1,11 @@
 import SwiftUI
 
 struct BombusTabView: View {
+    
+    let storageProvider: StorageProvider
     @State private var selection = 2
+    
+    
     var body: some View {
         TabView(selection: $selection) {
             Text("Place Holder")
@@ -9,7 +13,7 @@ struct BombusTabView: View {
                     Image(systemName: "house")
                     Text("")
                 }.tag(1)
-            Text("Place Holder")
+            SessionView(storageProvider: storageProvider)
                 .tabItem {
                     Image(systemName: "stopwatch")
                     Text("")
@@ -23,8 +27,8 @@ struct BombusTabView: View {
     }
 }
 
-struct BombusTabView_Previews: PreviewProvider {
-    static var previews: some View {
-        BombusTabView()
-    }
-}
+//struct BombusTabView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        BombusTabView(storageProvider: viewContext)
+//    }
+//}

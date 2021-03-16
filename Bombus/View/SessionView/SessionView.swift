@@ -2,7 +2,7 @@ import SwiftUI
 
 struct SessionView: View {
 
-    @ObservedObject var viewModel: ViewModel
+    @ObservedObject var viewModel = ViewModel()
     let storageProvider: StorageProvider
 
     var body: some View {
@@ -20,7 +20,7 @@ struct SessionView: View {
                 }, label: {
                     // Let's place this into a ButtonStyleModifier so we dont clog the view
                     Text("Start Timer")
-                }).primaryButtonStyle()
+                }).primaryButtonStyle().padding(.bottom, 10)
             }
             .navigationTitle("Sessions")
     }
@@ -35,6 +35,6 @@ struct SessionView_Previews: PreviewProvider {
         dummySession.points = 2
         dummySession.start = Date.init(timeIntervalSinceNow: -10)
 
-        return SessionView(viewModel: SessionView.ViewModel(), storageProvider: viewContext)
+        return SessionView(storageProvider: viewContext)
     }
 }
