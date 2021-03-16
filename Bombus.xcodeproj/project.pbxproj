@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E91C2432601437000EE3E2D /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E91C2422601437000EE3E2D /* Color+Extension.swift */; };
 		664BE3333FC467931FDB6B03 /* Pods_Bombus_BombusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9D09E8AE5CA25CAEE2CBA8 /* Pods_Bombus_BombusUITests.framework */; };
 		C1DF496E85FA82B2B0CFEECE /* Pods_BombusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99823D3681A940CF9829F8C4 /* Pods_BombusTests.framework */; };
 		EDBD161A25F952F000F1C262 /* StorageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD161925F952F000F1C262 /* StorageProvider.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		3A9D09E8AE5CA25CAEE2CBA8 /* Pods_Bombus_BombusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bombus_BombusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E91C2422601437000EE3E2D /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		5521B6789E78CE875305E3CB /* Pods-Bombus-BombusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bombus-BombusUITests.debug.xcconfig"; path = "Target Support Files/Pods-Bombus-BombusUITests/Pods-Bombus-BombusUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		733F1748F52C9A69AF91C706 /* Pods-Bombus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bombus.debug.xcconfig"; path = "Target Support Files/Pods-Bombus/Pods-Bombus.debug.xcconfig"; sourceTree = "<group>"; };
 		848BC89FD20256811118A448 /* Pods_Bombus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bombus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -209,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				EDF66E4E260137A500D6F42D /* Modifiers */,
+				3E91C2422601437000EE3E2D /* Color+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 				EDBD166925F9622600F1C262 /* SessionTimer.swift in Sources */,
 				EDBD166425F961D800F1C262 /* SessionView+Model.swift in Sources */,
 				EDF66E50260137CD00D6F42D /* BombusPrimaryButtonStyle+Modifier.swift in Sources */,
+				3E91C2432601437000EE3E2D /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
