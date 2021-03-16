@@ -21,6 +21,7 @@
 		EDD28FF725F2E7BC00917B50 /* BombusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD28FF625F2E7BC00917B50 /* BombusTests.swift */; };
 		EDD2900225F2E7BD00917B50 /* BombusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD2900125F2E7BD00917B50 /* BombusUITests.swift */; };
 		EDF66E50260137CD00D6F42D /* BombusPrimaryButtonStyle+Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF66E4F260137CD00D6F42D /* BombusPrimaryButtonStyle+Modifier.swift */; };
+		EDF66E62260145C000D6F42D /* BombusTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF66E61260145C000D6F42D /* BombusTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		EDD2900125F2E7BD00917B50 /* BombusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombusUITests.swift; sourceTree = "<group>"; };
 		EDD2900325F2E7BD00917B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDF66E4F260137CD00D6F42D /* BombusPrimaryButtonStyle+Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BombusPrimaryButtonStyle+Modifier.swift"; sourceTree = "<group>"; };
+		EDF66E61260145C000D6F42D /* BombusTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombusTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			children = (
 				EDF66E5A26013D9700D6F42D /* SessionView */,
 				EDF66E4D2601379600D6F42D /* Extensions */,
+				EDF66E61260145C000D6F42D /* BombusTabView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -449,6 +452,7 @@
 				EDBD165F25F95CAA00F1C262 /* SessionView.swift in Sources */,
 				EDBD166925F9622600F1C262 /* SessionTimer.swift in Sources */,
 				EDBD166425F961D800F1C262 /* SessionView+Model.swift in Sources */,
+				EDF66E62260145C000D6F42D /* BombusTabView.swift in Sources */,
 				EDF66E50260137CD00D6F42D /* BombusPrimaryButtonStyle+Modifier.swift in Sources */,
 				3E91C2432601437000EE3E2D /* Color+Extension.swift in Sources */,
 			);
