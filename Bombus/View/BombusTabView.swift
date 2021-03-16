@@ -5,6 +5,11 @@ struct BombusTabView: View {
     let storageProvider: StorageProvider
     @State private var selection = 2
     
+    init(storageProvider: StorageProvider) {
+        self.storageProvider = storageProvider
+        UITabBar.appearance().isTranslucent = false
+        UITabBar.appearance().barTintColor = UIColor(.bombusbBackgroundColor)
+    }
     
     var body: some View {
         TabView(selection: $selection) {
