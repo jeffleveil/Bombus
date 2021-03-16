@@ -49,6 +49,7 @@
                ReferencedContainer = "container:Bombus.xcodeproj">
             </BuildableReference>
          </TestableReference>
+        
       </Testables>
    </TestAction>
    <LaunchAction
