@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24BF9981BC08DF492DCD0FA0 /* Pods_Bombus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848BC89FD20256811118A448 /* Pods_Bombus.framework */; };
 		664BE3333FC467931FDB6B03 /* Pods_Bombus_BombusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9D09E8AE5CA25CAEE2CBA8 /* Pods_Bombus_BombusUITests.framework */; };
 		C1DF496E85FA82B2B0CFEECE /* Pods_BombusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99823D3681A940CF9829F8C4 /* Pods_BombusTests.framework */; };
 		EDBD161A25F952F000F1C262 /* StorageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD161925F952F000F1C262 /* StorageProvider.swift */; };
@@ -20,6 +19,7 @@
 		EDD28FE725F2E7BC00917B50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD28FE625F2E7BC00917B50 /* Preview Assets.xcassets */; };
 		EDD28FF725F2E7BC00917B50 /* BombusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD28FF625F2E7BC00917B50 /* BombusTests.swift */; };
 		EDD2900225F2E7BD00917B50 /* BombusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD2900125F2E7BD00917B50 /* BombusUITests.swift */; };
+		EDF66E50260137CD00D6F42D /* BombusPrimaryButtonStyle+Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF66E4F260137CD00D6F42D /* BombusPrimaryButtonStyle+Modifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +65,7 @@
 		EDD28FFD25F2E7BD00917B50 /* BombusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BombusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD2900125F2E7BD00917B50 /* BombusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombusUITests.swift; sourceTree = "<group>"; };
 		EDD2900325F2E7BD00917B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF66E4F260137CD00D6F42D /* BombusPrimaryButtonStyle+Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BombusPrimaryButtonStyle+Modifier.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24BF9981BC08DF492DCD0FA0 /* Pods_Bombus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +119,7 @@
 		EDBD164625F95BD400F1C262 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EDF66E4D2601379600D6F42D /* Extensions */,
 				EDBD162F25F9554800F1C262 /* SessionView.swift */,
 			);
 			path = View;
@@ -202,6 +203,22 @@
 				EDBD166825F9622600F1C262 /* SessionTimer.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		EDF66E4D2601379600D6F42D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EDF66E4E260137A500D6F42D /* Modifiers */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EDF66E4E260137A500D6F42D /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				EDF66E4F260137CD00D6F42D /* BombusPrimaryButtonStyle+Modifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 		FA5761AC7FC7FD0EBCE222A8 /* Frameworks */ = {
@@ -440,6 +457,7 @@
 				EDBD165F25F95CAA00F1C262 /* SessionView.swift in Sources */,
 				EDBD166925F9622600F1C262 /* SessionTimer.swift in Sources */,
 				EDBD166425F961D800F1C262 /* SessionView+Model.swift in Sources */,
+				EDF66E50260137CD00D6F42D /* BombusPrimaryButtonStyle+Modifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
