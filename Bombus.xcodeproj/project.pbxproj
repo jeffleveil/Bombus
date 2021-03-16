@@ -10,6 +10,7 @@
 		3E91C2432601437000EE3E2D /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E91C2422601437000EE3E2D /* Color+Extension.swift */; };
 		664BE3333FC467931FDB6B03 /* Pods_Bombus_BombusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9D09E8AE5CA25CAEE2CBA8 /* Pods_Bombus_BombusUITests.framework */; };
 		C1DF496E85FA82B2B0CFEECE /* Pods_BombusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99823D3681A940CF9829F8C4 /* Pods_BombusTests.framework */; };
+		37CD669125FAE69B008E0328 /* BombusTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CD669025FAE69B008E0328 /* BombusTabView.swift */; };
 		EDBD161A25F952F000F1C262 /* StorageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD161925F952F000F1C262 /* StorageProvider.swift */; };
 		EDBD165825F95C9E00F1C262 /* Bombus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDD28FEA25F2E7BC00917B50 /* Bombus.xcdatamodeld */; };
 		EDBD165F25F95CAA00F1C262 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD162F25F9554800F1C262 /* SessionView.swift */; };
@@ -52,6 +53,7 @@
 		B50E0009F0C9F96BC1D8231F /* Pods-BombusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BombusTests.release.xcconfig"; path = "Target Support Files/Pods-BombusTests/Pods-BombusTests.release.xcconfig"; sourceTree = "<group>"; };
 		BC918C9E433BA268D804557B /* Pods-Bombus-BombusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bombus-BombusUITests.release.xcconfig"; path = "Target Support Files/Pods-Bombus-BombusUITests/Pods-Bombus-BombusUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DA60ABB67D7C4BC02A04D0FF /* Pods-BombusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BombusTests.debug.xcconfig"; path = "Target Support Files/Pods-BombusTests/Pods-BombusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37CD669025FAE69B008E0328 /* BombusTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombusTabView.swift; sourceTree = "<group>"; };
 		EDBD161925F952F000F1C262 /* StorageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageProvider.swift; sourceTree = "<group>"; };
 		EDBD162F25F9554800F1C262 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
 		EDBD166325F961D800F1C262 /* SessionView+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SessionView+Model.swift"; sourceTree = "<group>"; };
@@ -84,7 +86,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1DF496E85FA82B2B0CFEECE /* Pods_BombusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,26 +93,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				664BE3333FC467931FDB6B03 /* Pods_Bombus_BombusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B73295E381BE2993510F9D8B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				733F1748F52C9A69AF91C706 /* Pods-Bombus.debug.xcconfig */,
-				87B2EACDD041CBBFE41DEDFB /* Pods-Bombus.release.xcconfig */,
-				5521B6789E78CE875305E3CB /* Pods-Bombus-BombusUITests.debug.xcconfig */,
-				BC918C9E433BA268D804557B /* Pods-Bombus-BombusUITests.release.xcconfig */,
-				DA60ABB67D7C4BC02A04D0FF /* Pods-BombusTests.debug.xcconfig */,
-				B50E0009F0C9F96BC1D8231F /* Pods-BombusTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		EDBD161825F952C700F1C262 /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,9 +110,11 @@
 		EDBD164625F95BD400F1C262 /* View */ = {
 			isa = PBXGroup;
 			children = (
+      
 				EDF66E5A26013D9700D6F42D /* SessionView */,
 				EDF66E4D2601379600D6F42D /* Extensions */,
 				EDF66E61260145C000D6F42D /* BombusTabView.swift */,
+        
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -146,8 +135,6 @@
 				EDD28FF525F2E7BC00917B50 /* BombusTests */,
 				EDD2900025F2E7BD00917B50 /* BombusUITests */,
 				EDD28FDD25F2E7BB00917B50 /* Products */,
-				B73295E381BE2993510F9D8B /* Pods */,
-				FA5761AC7FC7FD0EBCE222A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -210,6 +197,7 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+    
 		EDF66E4D2601379600D6F42D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +233,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+    
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -252,7 +241,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDD2900625F2E7BD00917B50 /* Build configuration list for PBXNativeTarget "Bombus" */;
 			buildPhases = (
-				92DA177F75188F2D1F762C27 /* [CP] Check Pods Manifest.lock */,
 				EDD28FD825F2E7BB00917B50 /* Sources */,
 				EDD28FD925F2E7BB00917B50 /* Frameworks */,
 				EDD28FDA25F2E7BB00917B50 /* Resources */,
@@ -270,7 +258,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDD2900925F2E7BD00917B50 /* Build configuration list for PBXNativeTarget "BombusTests" */;
 			buildPhases = (
-				1819D37E39F355DD48E5B964 /* [CP] Check Pods Manifest.lock */,
 				EDD28FEE25F2E7BC00917B50 /* Sources */,
 				EDD28FEF25F2E7BC00917B50 /* Frameworks */,
 				EDD28FF025F2E7BC00917B50 /* Resources */,
@@ -289,7 +276,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDD2900C25F2E7BD00917B50 /* Build configuration list for PBXNativeTarget "BombusUITests" */;
 			buildPhases = (
-				C48FBF217F5FE58978B53B6E /* [CP] Check Pods Manifest.lock */,
 				EDD28FF925F2E7BD00917B50 /* Sources */,
 				EDD28FFA25F2E7BD00917B50 /* Frameworks */,
 				EDD28FFB25F2E7BD00917B50 /* Resources */,
@@ -372,6 +358,7 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+
 /* Begin PBXShellScriptBuildPhase section */
 		1819D37E39F355DD48E5B964 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -441,6 +428,7 @@
 		};
 /* End PBXShellScriptBuildPhase section */
 
+
 /* Begin PBXSourcesBuildPhase section */
 		EDD28FD825F2E7BB00917B50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -448,6 +436,7 @@
 			files = (
 				EDD28FE025F2E7BB00917B50 /* BombusApp.swift in Sources */,
 				EDBD161A25F952F000F1C262 /* StorageProvider.swift in Sources */,
+				37CD669125FAE69B008E0328 /* BombusTabView.swift in Sources */,
 				EDBD165825F95C9E00F1C262 /* Bombus.xcdatamodeld in Sources */,
 				EDBD165F25F95CAA00F1C262 /* SessionView.swift in Sources */,
 				EDBD166925F9622600F1C262 /* SessionTimer.swift in Sources */,
@@ -608,7 +597,6 @@
 		};
 		EDD2900725F2E7BD00917B50 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 733F1748F52C9A69AF91C706 /* Pods-Bombus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -631,7 +619,6 @@
 		};
 		EDD2900825F2E7BD00917B50 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87B2EACDD041CBBFE41DEDFB /* Pods-Bombus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -654,7 +641,6 @@
 		};
 		EDD2900A25F2E7BD00917B50 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA60ABB67D7C4BC02A04D0FF /* Pods-BombusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -677,7 +663,6 @@
 		};
 		EDD2900B25F2E7BD00917B50 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B50E0009F0C9F96BC1D8231F /* Pods-BombusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -700,7 +685,6 @@
 		};
 		EDD2900D25F2E7BD00917B50 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5521B6789E78CE875305E3CB /* Pods-Bombus-BombusUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -721,7 +705,6 @@
 		};
 		EDD2900E25F2E7BD00917B50 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC918C9E433BA268D804557B /* Pods-Bombus-BombusUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

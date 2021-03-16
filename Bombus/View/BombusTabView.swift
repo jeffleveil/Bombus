@@ -1,3 +1,4 @@
+
 import SwiftUI
 
 struct BombusTabView: View {
@@ -16,8 +17,7 @@ struct BombusTabView: View {
             ZStack {
                 Color.bombusbBackgroundColor.ignoresSafeArea(edges: .all)
                 Text("Place Holder")
-            }
-                .tabItem {
+            }.tabItem {
                     Image(systemName: "house")
                     Text("")
                 }.tag(1)
@@ -37,9 +37,3 @@ struct BombusTabView: View {
         }
     }
 }
-
-//struct BombusTabView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        BombusTabView(storageProvider: viewContext)
-//    }
-//}

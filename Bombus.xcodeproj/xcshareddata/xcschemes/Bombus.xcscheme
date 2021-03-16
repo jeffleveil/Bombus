@@ -26,8 +26,30 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EDD28FF125F2E7BC00917B50"
+               BuildableName = "BombusTests.xctest"
+               BlueprintName = "BombusTests"
+               ReferencedContainer = "container:Bombus.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EDD28FFC25F2E7BD00917B50"
+               BuildableName = "BombusUITests.xctest"
+               BlueprintName = "BombusUITests"
+               ReferencedContainer = "container:Bombus.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+        
       </Testables>
    </TestAction>
    <LaunchAction
