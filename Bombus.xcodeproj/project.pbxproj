@@ -40,7 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		37CD669025FAE69B008E0328 /* BombusTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombusTabView.swift; sourceTree = "<group>"; };
 		3E91C2422601437000EE3E2D /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		EDBD161925F952F000F1C262 /* StorageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageProvider.swift; sourceTree = "<group>"; };
 		EDBD162F25F9554800F1C262 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
@@ -121,7 +120,6 @@
 				EDD28FF525F2E7BC00917B50 /* BombusTests */,
 				EDD2900025F2E7BD00917B50 /* BombusUITests */,
 				EDD28FDD25F2E7BB00917B50 /* Products */,
-				EDF66E692601555B00D6F42D /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,14 +205,6 @@
 				EDBD162F25F9554800F1C262 /* SessionView.swift */,
 			);
 			path = SessionView;
-			sourceTree = "<group>";
-		};
-		EDF66E692601555B00D6F42D /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-				37CD669025FAE69B008E0328 /* BombusTabView.swift */,
-			);
-			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
