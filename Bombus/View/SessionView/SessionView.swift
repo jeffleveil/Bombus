@@ -9,14 +9,10 @@ struct SessionView: View {
         ZStack {
             Color.bombusbBackgroundColor.ignoresSafeArea(edges: .all)
             VStack {
-                
                 ZStack {
-                    
                     Honeycomb()
                     
-                    Text("\(viewModel.formatter.string(from: viewModel.timerDuration) ?? "Nothing")")
-                        .timerTextStyle()
-                    
+                    Text(viewModel.currentTimerString).timerTextStyle()
                 }
                 .frame(height: 320)
                 .padding(.vertical, 50)

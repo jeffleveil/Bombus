@@ -3,19 +3,19 @@ import SwiftUI
 struct Honeycomb: View {
     var body: some View {
         ZStack {
-            HoneycombPolygon(radius: 20).foregroundColor(.bombusbAccentColor)
+            HoneycombPolygon(radius: 20)
+                .fill(Color.bombusbAccentColor)
             
             HoneycombPolygon(radius: 20)
                 .mask(
                     Color.bombusPrimaryTextColor
                         .mask(
                             HoneycombPolygon(radius: 20)
-                                .strokeBorder(Color.black.opacity(0.7), lineWidth: 3)
-                                .blur(radius: 15)
-                            
-                            
+                                .strokeBorder(Color.black.opacity(0.7), lineWidth: 2)
+                                .blur(radius: 10)
                         )
                 )
+            
         }
     }
 }
