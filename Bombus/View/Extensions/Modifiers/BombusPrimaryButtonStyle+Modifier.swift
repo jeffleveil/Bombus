@@ -4,9 +4,11 @@ struct BombusPrimaryButtonStyleModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .foregroundColor(.bombusPrimaryTextColor)
-            .font(.system(.body, design: .rounded))
+            .font(Font.headline.weight(.semibold))
+            .font(.system(.headline, design: .rounded))
             .padding()
             .frame(minWidth: 0, maxWidth: .infinity, alignment: .center)
+            .frame(height: 60)
             .background(RoundedRectangle(cornerRadius: 10, style: .continuous)
                             .fill(Color.bombusbAccentColor))
             .padding(.horizontal, 20)
@@ -24,7 +26,7 @@ struct BombusPrimaryButtonStyleModifierPreview: PreviewProvider {
 
         Group {
             Button(action: {}, label: {
-                Text("Button")
+                Text("This is a primary button")
             })
             .primaryButtonStyle()
         }
