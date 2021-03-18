@@ -9,12 +9,20 @@ struct SessionView: View {
         ZStack {
             Color.bombusbBackgroundColor.ignoresSafeArea(edges: .all)
             VStack {
-                // Let's place this into a ButtonStyleModifier so we dont clog the view
-                Text("\(viewModel.formatter.string(from: viewModel.timerDuration) ?? "Nothing")")
-                    .font(.system(size: 50, weight: .bold, design: .rounded))
-                    .fontWeight(.bold)
-                    .padding(50)
-                    .foregroundColor(.bombusPrimaryTextColor)
+                
+                HoneycombPolygon(radius: 20)
+                    .fill(Color.bombusbAccentColor)
+                    .overlay(
+                        // Let's place this into a ButtonStyleModifier so we dont clog the view
+                        Text("\(viewModel.formatter.string(from: viewModel.timerDuration) ?? "Nothing")")
+                            .font(.system(size: 50, weight: .bold, design: .rounded))
+                            .fontWeight(.bold)
+                            .padding(50)
+                            .foregroundColor(.bombusPrimaryTextColor)
+                    )
+                    .frame(height: 350)
+                    .padding()
+                
                 
                 Spacer()
                 
