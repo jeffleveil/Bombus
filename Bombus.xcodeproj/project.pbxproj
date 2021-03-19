@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E8C2EE3260465C10046844E /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C2EE2260465C10046844E /* ProgressCircleView.swift */; };
 		3E91C2432601437000EE3E2D /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E91C2422601437000EE3E2D /* Color+Extension.swift */; };
 		ED1881312603B5EE0011DE3B /* HoneycombPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1881302603B5EE0011DE3B /* HoneycombPolygon.swift */; };
 		ED1881392603C1940011DE3B /* HoneycombPolygon+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1881382603C1940011DE3B /* HoneycombPolygon+Extension.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E8C2EE2260465C10046844E /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
 		3E91C2422601437000EE3E2D /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		ED1881302603B5EE0011DE3B /* HoneycombPolygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneycombPolygon.swift; sourceTree = "<group>"; };
 		ED1881382603C1940011DE3B /* HoneycombPolygon+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoneycombPolygon+Extension.swift"; sourceTree = "<group>"; };
@@ -104,6 +106,14 @@
 			path = Honeycomb;
 			sourceTree = "<group>";
 		};
+		ED78B811260530C300CA7202 /* BombusTabView */ = {
+			isa = PBXGroup;
+			children = (
+				EDF66E61260145C000D6F42D /* BombusTabView.swift */,
+			);
+			path = BombusTabView;
+			sourceTree = "<group>";
+		};
 		EDBD161825F952C700F1C262 /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,8 +125,8 @@
 		EDBD164625F95BD400F1C262 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ED78B811260530C300CA7202 /* BombusTabView */,
 				ED18812F2603B5DD0011DE3B /* Honeycomb */,
-				EDF66E61260145C000D6F42D /* BombusTabView.swift */,
 				EDF66E5A26013D9700D6F42D /* SessionView */,
 				EDF66E4D2601379600D6F42D /* Extensions */,
 			);
@@ -222,6 +232,7 @@
 		EDF66E5A26013D9700D6F42D /* SessionView */ = {
 			isa = PBXGroup;
 			children = (
+				3E8C2EE2260465C10046844E /* ProgressCircleView.swift */,
 				EDBD162F25F9554800F1C262 /* SessionView.swift */,
 			);
 			path = SessionView;
@@ -365,6 +376,7 @@
 				ED18814F2603DB1C0011DE3B /* BombusTimerTextModifier.swift in Sources */,
 				EDBD165F25F95CAA00F1C262 /* SessionView.swift in Sources */,
 				ED1881392603C1940011DE3B /* HoneycombPolygon+Extension.swift in Sources */,
+				3E8C2EE3260465C10046844E /* ProgressCircleView.swift in Sources */,
 				EDBD166925F9622600F1C262 /* SessionTimer.swift in Sources */,
 				EDBD166425F961D800F1C262 /* SessionView+Model.swift in Sources */,
 				EDF66E50260137CD00D6F42D /* BombusPrimaryButtonStyle+Modifier.swift in Sources */,
