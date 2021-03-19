@@ -117,11 +117,11 @@
 		EDBD164625F95BD400F1C262 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3E8C2EE2260465C10046844E /* ProgressCircleView.swift */,
 				ED18812F2603B5DD0011DE3B /* Honeycomb */,
 				EDF66E61260145C000D6F42D /* BombusTabView.swift */,
 				EDF66E5A26013D9700D6F42D /* SessionView */,
 				EDF66E4D2601379600D6F42D /* Extensions */,
-				3E8C2EE2260465C10046844E /* ProgressCircleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
