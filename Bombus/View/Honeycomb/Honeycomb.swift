@@ -11,8 +11,8 @@ struct Honeycomb: View {
                     Color.bombusPrimaryTextColor
                         .mask(
                             HoneycombPolygon(radius: 20)
-                                .strokeBorder(Color.black.opacity(0.7), lineWidth: 2)
-                                .blur(radius: 10)
+                                .strokeBorder(Color.black.opacity(0.9), lineWidth: 1)
+                                .blur(radius: 5)
                         )
                 )
             

@@ -4,8 +4,8 @@ struct BombusPrimaryButtonStyleModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .foregroundColor(.bombusPrimaryTextColor)
-            .font(Font.headline.weight(.semibold))
-            .font(.system(.headline, design: .rounded))
+            .font(Font.title3.weight(.bold))
+            .font(.system(.title3, design: .rounded))
             .padding()
             .frame(minWidth: 0, maxWidth: .infinity, alignment: .center)
             .frame(height: 60)
