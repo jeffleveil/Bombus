@@ -14,6 +14,8 @@ extension SessionView {
         let formatter = DateComponentsFormatter()
 
         var timerDuration: Double { return sessionTimer.duration }
+        
+        var currentTimerString: String { formatter.string(from: timerDuration) ?? "Nothing"}
 
         init() {
             // once the user can select the time intervals we will change the hardcoded value to the configuration one.

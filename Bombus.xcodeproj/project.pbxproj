@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E8C2EE3260465C10046844E /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C2EE2260465C10046844E /* ProgressCircleView.swift */; };
 		3E91C2432601437000EE3E2D /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E91C2422601437000EE3E2D /* Color+Extension.swift */; };
+		ED1881312603B5EE0011DE3B /* HoneycombPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1881302603B5EE0011DE3B /* HoneycombPolygon.swift */; };
+		ED1881392603C1940011DE3B /* HoneycombPolygon+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1881382603C1940011DE3B /* HoneycombPolygon+Extension.swift */; };
+		ED18814A2603DA990011DE3B /* Honeycomb.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1881492603DA990011DE3B /* Honeycomb.swift */; };
+		ED18814F2603DB1C0011DE3B /* BombusTimerTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18814E2603DB1C0011DE3B /* BombusTimerTextModifier.swift */; };
 		EDBD161A25F952F000F1C262 /* StorageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD161925F952F000F1C262 /* StorageProvider.swift */; };
 		EDBD165825F95C9E00F1C262 /* Bombus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDD28FEA25F2E7BC00917B50 /* Bombus.xcdatamodeld */; };
 		EDBD165F25F95CAA00F1C262 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD162F25F9554800F1C262 /* SessionView.swift */; };
@@ -40,7 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E8C2EE2260465C10046844E /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
 		3E91C2422601437000EE3E2D /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		ED1881302603B5EE0011DE3B /* HoneycombPolygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneycombPolygon.swift; sourceTree = "<group>"; };
+		ED1881382603C1940011DE3B /* HoneycombPolygon+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoneycombPolygon+Extension.swift"; sourceTree = "<group>"; };
+		ED1881492603DA990011DE3B /* Honeycomb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Honeycomb.swift; sourceTree = "<group>"; };
+		ED18814E2603DB1C0011DE3B /* BombusTimerTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombusTimerTextModifier.swift; sourceTree = "<group>"; };
 		EDBD161925F952F000F1C262 /* StorageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageProvider.swift; sourceTree = "<group>"; };
 		EDBD162F25F9554800F1C262 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
 		EDBD166325F961D800F1C262 /* SessionView+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SessionView+Model.swift"; sourceTree = "<group>"; };
@@ -86,6 +96,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED18812F2603B5DD0011DE3B /* Honeycomb */ = {
+			isa = PBXGroup;
+			children = (
+				ED1881302603B5EE0011DE3B /* HoneycombPolygon.swift */,
+				ED1881382603C1940011DE3B /* HoneycombPolygon+Extension.swift */,
+				ED1881492603DA990011DE3B /* Honeycomb.swift */,
+			);
+			path = Honeycomb;
+			sourceTree = "<group>";
+		};
 		EDBD161825F952C700F1C262 /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +117,8 @@
 		EDBD164625F95BD400F1C262 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3E8C2EE2260465C10046844E /* ProgressCircleView.swift */,
+				ED18812F2603B5DD0011DE3B /* Honeycomb */,
 				EDF66E61260145C000D6F42D /* BombusTabView.swift */,
 				EDF66E5A26013D9700D6F42D /* SessionView */,
 				EDF66E4D2601379600D6F42D /* Extensions */,
@@ -195,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				EDF66E4F260137CD00D6F42D /* BombusPrimaryButtonStyle+Modifier.swift */,
+				ED18814E2603DB1C0011DE3B /* BombusTimerTextModifier.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -338,9 +361,14 @@
 			files = (
 				EDF66E702601560900D6F42D /* BombusTabView.swift in Sources */,
 				EDD28FE025F2E7BB00917B50 /* BombusApp.swift in Sources */,
+				ED18814A2603DA990011DE3B /* Honeycomb.swift in Sources */,
+				ED1881312603B5EE0011DE3B /* HoneycombPolygon.swift in Sources */,
 				EDBD161A25F952F000F1C262 /* StorageProvider.swift in Sources */,
 				EDBD165825F95C9E00F1C262 /* Bombus.xcdatamodeld in Sources */,
+				ED18814F2603DB1C0011DE3B /* BombusTimerTextModifier.swift in Sources */,
 				EDBD165F25F95CAA00F1C262 /* SessionView.swift in Sources */,
+				ED1881392603C1940011DE3B /* HoneycombPolygon+Extension.swift in Sources */,
+				3E8C2EE3260465C10046844E /* ProgressCircleView.swift in Sources */,
 				EDBD166925F9622600F1C262 /* SessionTimer.swift in Sources */,
 				EDBD166425F961D800F1C262 /* SessionView+Model.swift in Sources */,
 				EDF66E50260137CD00D6F42D /* BombusPrimaryButtonStyle+Modifier.swift in Sources */,

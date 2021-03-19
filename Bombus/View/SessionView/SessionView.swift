@@ -9,12 +9,14 @@ struct SessionView: View {
         ZStack {
             Color.bombusbBackgroundColor.ignoresSafeArea(edges: .all)
             VStack {
-                // Let's place this into a ButtonStyleModifier so we dont clog the view
-                Text("\(viewModel.formatter.string(from: viewModel.timerDuration) ?? "Nothing")")
-                    .font(.system(size: 50, weight: .bold, design: .rounded))
-                    .fontWeight(.bold)
-                    .padding(50)
-                    .foregroundColor(.bombusPrimaryTextColor)
+                ZStack {
+                    Honeycomb()
+                    
+                    Text(viewModel.currentTimerString).timerTextStyle()
+                }
+                .frame(height: 320)
+                .padding(.vertical, 50)
+                
                 
                 Spacer()
                 
@@ -42,3 +44,6 @@ struct SessionView_Previews: PreviewProvider {
         return SessionView(storageProvider: viewContext)
     }
 }
+
+
+
