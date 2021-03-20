@@ -10,6 +10,7 @@ struct BombusTabView: View {
         self.storageProvider = storageProvider
         UITabBar.appearance().isTranslucent = false
         UITabBar.appearance().barTintColor = UIColor(.bombusbBackgroundColor)
+        UITabBar.appearance().unselectedItemTintColor = UIColor(.bombusbAccentColor)
     }
     
     var body: some View {
@@ -18,12 +19,12 @@ struct BombusTabView: View {
                 Color.bombusbBackgroundColor.ignoresSafeArea(edges: .all)
                 Text("Place Holder")
             }.tabItem {
-                Image(systemName: "house")
+                Image(systemName: "house.fill").font(Font.system(size: 20, weight: .semibold))
                 Text("")
             }.tag(1)
             SessionView(storageProvider: storageProvider)
                 .tabItem {
-                    Image(systemName: "stopwatch")
+                    Image(systemName: "stopwatch.fill").font(Font.system(size: 20, weight: .semibold))
                     Text("")
                 }.tag(2)
             ZStack {
@@ -31,9 +32,9 @@ struct BombusTabView: View {
                 Text("Place Holder")
             }
             .tabItem {
-                Image(systemName: "person.fill")
+                Image(systemName: "person.3.fill").font(Font.system(size: 20, weight: .semibold))
                 Text("")
             }.tag(3)
-        }
+        }.accentColor(.bombusPrimaryTextColor)
     }
 }

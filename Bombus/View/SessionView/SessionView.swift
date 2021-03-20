@@ -16,7 +16,7 @@ struct SessionView: View {
                 }
                 .frame(height: 320)
                 .padding(.vertical, 50)
-                
+                ProgressCircleView()
                 
                 Spacer()
                 
